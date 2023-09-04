@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders homepage unchanged 1`] = `
+<div>
+  <div
+    class="bg-red-400 p-3"
+  >
+    <button
+      class="mantine-Button-filled mantine-Button-root mantine-1grzg0q"
+      id="btn-home"
+      type="button"
+    >
+      <div
+        class="mantine-3xbgk5 mantine-Button-inner"
+      >
+        <span
+          class="mantine-qo1k2 mantine-Button-label"
+        >
+          Working 
+        </span>
+      </div>
+    </button>
+  </div>
+</div>
+`;
