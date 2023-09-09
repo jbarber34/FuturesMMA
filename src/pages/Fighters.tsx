@@ -1,4 +1,15 @@
+import {
+  FighterOutcomesData,
+  FighterStatsData,
+} from '~/components/FighterInformation';
+import FighterCard from '~/components/ui/FighterCard';
+import { FighterDetails, FighterOutcomes } from '~/types';
+
 export default function Fighters() {
+  const fighterStats: FighterDetails = FighterStatsData;
+
+  const fighterOutcomes: FighterOutcomes = FighterOutcomesData;
+  console.log(fighterOutcomes);
   return (
     <section id='fighters' className='my-20 text-center'>
       <meta
@@ -20,13 +31,11 @@ export default function Fighters() {
 
       <p className='text-gray-500'>Featured fighters trained at Futures MMA</p>
       {/* Eduardo Diez */}
-      <div className='grid grid-cols-2 2xl:grid-cols-2 sm:mx-8 text-center pt-16 px-4'>
-        <div className='lg:w-3/4 mx-auto'>
-          <h1 className='font-bold'>Eduardo "Cabello" Diez</h1>
-          <p className='text-futuresRed font-semibold'>
-            BUILD FIGHTER DETAILS TABLE
-          </p>
-        </div>
+      <div className='grid grid-cols-2 2xl:grid-cols-2 sm:mx-8 text-center pt-16 px-4 fighter-stat-data'>
+        <FighterCard
+          fighterStats={fighterStats.cabello}
+          fighterOutcomes={fighterOutcomes.cabello}
+        />
         <div className='grid lg:grid-cols-2 mx-auto'>
           <img
             src='/Fighters/cabello1.png'
@@ -40,16 +49,15 @@ export default function Fighters() {
             width={300}
             className='pl-4'
           />
+          F
         </div>
       </div>
       {/* Pablo Caballero */}
-      <div className='grid grid-cols-2 2xl:grid-cols-2 sm:mx-8 text-center pt-16 px-4'>
-        <div className='lg:w-3/4 mx-auto'>
-          <h1 className='font-bold'>Pablo Caballero "El Killer"</h1>
-          <p className='text-futuresRed font-semibold mx-auto'>
-            BUILD FIGHTER DETAILS TABLE
-          </p>
-        </div>
+      <div className='grid grid-cols-2 2xl:grid-cols-2 sm:mx-8 text-center pt-16 px-4 fighter-stat-data'>
+        <FighterCard
+          fighterStats={fighterStats.killer}
+          fighterOutcomes={fighterOutcomes.killer}
+        />
         <div className='grid lg:grid-cols-2 mx-auto'>
           <img
             src='/Fighters/killer1.png'
@@ -59,24 +67,22 @@ export default function Fighters() {
           />
           <img
             src='/Fighters/killer2.png'
-            alt='Jiu Jitsu coach Eduardo Diez BJJ Lineage'
+            alt='Pablo Caballero about to get his hand raised'
             width={300}
             className='pl-4'
           />
         </div>
       </div>
       {/* Carlos Guerra */}
-      <div className='grid grid-cols-2 2xl:grid-cols-2 sm:mx-8 text-center pt-16 px-4'>
-        <div className='lg:w-3/4 mx-auto'>
-          <h1 className='font-bold'>Carlos "Diamante" Guerra</h1>
-          <p className='text-futuresRed font-semibold'>
-            BUILD FIGHTER DETAILS TABLE
-          </p>
-        </div>
+      <div className='grid grid-cols-2 2xl:grid-cols-2 sm:mx-8 text-center pt-16 px-4 fighter-stat-data'>
+        <FighterCard
+          fighterStats={fighterStats.diamante}
+          fighterOutcomes={fighterOutcomes.diamante}
+        />
         <div className='mx-auto'>
           <img
             src='/Fighters/diamante1.png'
-            alt='Wrestling coach Mason Maher'
+            alt='Carlos Guerra with coaches after a fight'
             width={300}
           />
         </div>
