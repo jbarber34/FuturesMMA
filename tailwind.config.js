@@ -7,11 +7,15 @@ module.exports = {
         futuresWhite: '#FFFFFF',
         futuresBlack: '#010B13',
         futuresRed: '#C02C25',
+        mmaGold: '#FFC000',
+        winnerGreen: '#13A400',
+        lossesRed: '#C3031C',
       },
       borderWidth: {
         16: '16px',
       },
       fontSize: {
+        '12px': '12px',
         '3xl': '1.953rem',
         '4xl': '2.441rem',
         '5xl': '3.052rem',
