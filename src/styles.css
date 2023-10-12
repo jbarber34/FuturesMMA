@@ -37,3 +37,15 @@ body::before {
   background-repeat: no-repeat;
   background-position: center;
 }
+
+/* Fighter Stats Table */
+.fighter-stat-data {
+  /* width: 100%; */
+  display: flex;
+  justify-content: space-between;
+  background: #151515;
+  padding: 18px 11px;
+  margin-top: 12px;
+  box-sizing: border-box;
+  gap: 10px;
+}
