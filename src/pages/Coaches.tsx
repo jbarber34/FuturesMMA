@@ -35,7 +35,7 @@ export default function Coaches() {
         </div>
         <div className='mx-auto'>
           <img
-            src='/jeremiah-rodriguez.png'
+            src='/Coaches/jeremiah-rodriguez.png'
             alt='Head coach Jeremiah Rodriguez'
             width={300}
           />
@@ -57,12 +57,12 @@ export default function Coaches() {
         </div>
         <div className='grid lg:grid-cols-2 mx-auto'>
           <img
-            src='/eduardo-diez-lineage.png'
+            src='/Coaches/eduardo-diez-lineage.png'
             alt='Jiu Jitsu coach Eduardo Diez'
             width={300}
           />
           <img
-            src='/eduardo-diez.png'
+            src='/Coaches/eduardo-diez.png'
             alt='Jiu Jitsu coach Eduardo Diez BJJ Lineage'
             width={300}
           />
@@ -79,7 +79,7 @@ export default function Coaches() {
         </div>
         <div className='mx-auto'>
           <img
-            src='/mason-maher.png'
+            src='/Coaches/mason-maher.png'
             alt='Wrestling coach Mason Maher'
             width={300}
           />
