@@ -6,7 +6,7 @@ export default function Title() {
   return (
     <div className='py-16 relative text-white grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 title-image'>
       {/* Black canvas in front of image */}
-      <div className='absolute inset-0 bg-black opacity-80'></div>
+      <div className='absolute inset-0 bg-black opacity-70'></div>
       <div className='order-2 lg:order-1 pt-16 m-auto text-3xl xl:text-5xl w-2/3 font-extrabold xl:col-span-2 text-center relative'>
         <h2>Welcome To Our Family </h2>
         <h3 className='text-2xl xl:text-4xl mb-4'>Your Journey Begins Here</h3>

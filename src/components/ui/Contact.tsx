@@ -14,7 +14,7 @@ export default function Contact() {
           Contact Us
         </h2>
         <div className='grid lg:grid-cols-2 mb-8 px-8 font-black'>
-          <div className='m-auto'>
+          <div className='m-auto w-1/2'>
             <div>
               Questions? Please call, email, or stop by the gym and a friendly
               Futures staff member will assist you with any questions you have.

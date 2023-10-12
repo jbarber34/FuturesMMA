@@ -9,7 +9,7 @@ export default function Fighters() {
   const fighterStats: FighterDetails = FighterStatsData;
 
   const fighterOutcomes: FighterOutcomes = FighterOutcomesData;
-  console.log(fighterOutcomes);
+
   return (
     <section id='fighters' className='my-20 text-center'>
       <meta
