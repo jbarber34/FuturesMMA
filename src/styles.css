@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Apply basic global styles to the body: */
+body {
+  @apply bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100 font-sans antialiased;
+}
+
+.cursiveFont {
+  font-family: 'Brush Script MT', cursive;
+  /* font-size: 24px; */
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background-image: url('../public/futures-logo.png');
+  background-size: 750px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  opacity: 0.08;
+}
+
+/* Title Section */
+.title-image {
+  margin-top: 50px;
+  background-image: url('../public/futures-team-title.png');
+  background-size: 1000px;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-position: center;
+}
