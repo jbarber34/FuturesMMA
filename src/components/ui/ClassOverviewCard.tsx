@@ -1,5 +1,3 @@
-import { Button, Group } from '@mantine/core';
-import Link from 'next/link';
 import router from 'next/router';
 import { ClassDetail } from '~/types';
 
